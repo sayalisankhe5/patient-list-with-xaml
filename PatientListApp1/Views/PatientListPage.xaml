@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              Title="Patients"
+             x:Class="PatientListApp1.Views.PatientListPage">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text ="Add" Clicked="ToolbarItem_Clicked" />
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <!--<Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />-->
+            <ListView x:Name="patientList" ItemTapped="PatientList_ItemTapped">
+                <!--<ListView.Header>
+                <Label Text="Hello" TextColor="Black" />
+            </ListView.Header>-->
+                <!--<ListView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Patient1</x:String>
+                        <x:String>Patient2</x:String>
+                        <x:String>Patient3</x:String>
+                        <x:String>Patient4</x:String>
+                    </x:Array>
+                </ListView.ItemsSource>-->
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" >
+                                <Label Text="{Binding Name}" FontSize="22" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                                <Button Text="Edit" HorizontalOptions="EndAndExpand" Margin="5" Padding="5" Clicked="EditButton_Clicked" CommandParameter="{Binding .}"></Button>
+                                <!--<Button Text="Delete" Margin="5" Padding="5" ></Button>-->
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

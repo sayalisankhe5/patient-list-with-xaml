@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PatientListApp1.Views.PatientDetailPage">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Name" FontSize="Small" />
+                <Label Text="*" FontSize="Small" TextColor="Red" />
+            </StackLayout>
+            <Entry FontSize="Medium" x:Name="pName" Text="{Binding Name}" IsReadOnly="False"></Entry>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="PhoneNumber" FontSize="Small" />
+                <Label Text="*" FontSize="Small" TextColor="Red" />
+            </StackLayout>
+            <Entry MaxLength="10" FontSize="Medium" IsReadOnly="False" Keyboard="Numeric" Text="{Binding PhoneNumber}" x:Name="pPhone"></Entry>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Email" FontSize="Small" />
+            <Label Text="*" FontSize="Small" TextColor="Red" />
+        </StackLayout>
+        <Entry FontSize="Medium"  IsReadOnly="False" x:Name="pEmail" Text="{Binding Email}"></Entry>
+
+          <Label Text="DOB" FontSize="Small" />
+
+            <DatePicker FontSize="Medium" x:Name="pDOB" Date="{Binding DOB}" DateSelected="pDOB_DateSelected"></DatePicker>
+            
+            
+            <Label Text="Age" FontSize="Small" />
+            <Entry FontSize="Medium" x:Name="pAge" Text="{Binding Age}" IsReadOnly="True"></Entry>
+
+            <Button Text="Save" x:Name="Save" HorizontalOptions="FillAndExpand" Clicked="SaveButton_Clicked" IsVisible="True"></Button>
+            <Button Text="Delete" x:Name="Delete" HorizontalOptions="FillAndExpand" Clicked="Delete_Clicked" IsVisible="false"></Button>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,17 @@
+C:\Users\320020018\source\repos\PatientListApp1\PatientListApp1\PatientListApp1\bin\Debug\netstandard2.0\PatientListApp1.deps.json
+C:\Users\320020018\source\repos\PatientListApp1\PatientListApp1\PatientListApp1\bin\Debug\netstandard2.0\PatientListApp1.dll
+C:\Users\320020018\source\repos\PatientListApp1\PatientListApp1\PatientListApp1\bin\Debug\netstandard2.0\PatientListApp1.pdb
+C:\Users\320020018\source\repos\PatientListApp1\PatientListApp1\PatientListApp1\obj\Debug\netstandard2.0\PatientListApp1.csproj.AssemblyReference.cache
+C:\Users\320020018\source\repos\PatientListApp1\PatientListApp1\PatientListApp1\obj\Debug\netstandard2.0\PatientListApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\320020018\source\repos\PatientListApp1\PatientListApp1\PatientListApp1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\320020018\source\repos\PatientListApp1\PatientListApp1\PatientListApp1\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\320020018\source\repos\PatientListApp1\PatientListApp1\PatientListApp1\obj\Debug\netstandard2.0\PatientListApp1.AssemblyInfoInputs.cache
+C:\Users\320020018\source\repos\PatientListApp1\PatientListApp1\PatientListApp1\obj\Debug\netstandard2.0\PatientListApp1.AssemblyInfo.cs
+C:\Users\320020018\source\repos\PatientListApp1\PatientListApp1\PatientListApp1\obj\Debug\netstandard2.0\PatientListApp1.csproj.CoreCompileInputs.cache
+C:\Users\320020018\source\repos\PatientListApp1\PatientListApp1\PatientListApp1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\320020018\source\repos\PatientListApp1\PatientListApp1\PatientListApp1\obj\Debug\netstandard2.0\PatientListApp1.dll
+C:\Users\320020018\source\repos\PatientListApp1\PatientListApp1\PatientListApp1\obj\Debug\netstandard2.0\ref\PatientListApp1.dll
+C:\Users\320020018\source\repos\PatientListApp1\PatientListApp1\PatientListApp1\obj\Debug\netstandard2.0\PatientListApp1.pdb
+C:\Users\320020018\source\repos\PatientListApp1\PatientListApp1\PatientListApp1\obj\Debug\netstandard2.0\Views\PatientListPage.xaml.g.cs
+C:\Users\320020018\source\repos\PatientListApp1\PatientListApp1\PatientListApp1\obj\Debug\netstandard2.0\Views\PatientDetailPage.xaml.g.cs
+C:\Users\320020018\source\repos\PatientListApp1\PatientListApp1\PatientListApp1\obj\Debug\netstandard2.0\refint\PatientListApp1.dll
